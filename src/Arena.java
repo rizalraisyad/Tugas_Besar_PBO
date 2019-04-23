@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Arena {
     private Player player1;
     private Player player2;
@@ -42,10 +44,26 @@ public class Arena {
         System.out.println(player1.nama+"       "+player1.uang);
         System.out.println(player2.nama+"       "+player2.uang);
         loadPetak();
-//        boolean isSelesai = false;
-//        do{
-//
-//        }while (!isSelesai);
+        //turn inisiasi
+        Player playerTurn = player1;
+        Player playerWait = player2;
+        boolean isSelesai = false;
+        do{
+            System.out.println("\nNama Player "+playerTurn.nama);
+            System.out.println("Posisi awal : "+playerTurn.posisi);
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Masukkan angka 1 untuk kocok dadu : ");
+            int input = sc.nextInt();
+            if(input == 1){
+                playerTurn.Jalan();
+                System.out.println("Posisi Akhir : "+playerTurn.posisi);
+                Player temp = playerTurn;
+                playerTurn = playerWait;
+                playerWait = temp;
+            }else {
+                System.out.println("Retry");
+            }
+        }while (!isSelesai);
     }
 
 
