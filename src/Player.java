@@ -1,6 +1,7 @@
 public class Player {
     int uang;
     String nama="";
+    int posisi;
 
     public  Player(String vNama){
         nama = vNama;

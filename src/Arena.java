@@ -14,9 +14,17 @@ public class Arena {
             System.out.println("|");
         }
     }
+    public void loadPetak(){
+
+    }
+
     public void bermain(){
         System.out.println(player1.nama+"       "+player1.uang);
         System.out.println(player2.nama+"       "+player2.uang);
+        boolean isSelesai = false;
+        do{
+
+        }while (!isSelesai);
     }
 
 
@@ -29,7 +37,9 @@ public class Arena {
 
         //Siapkan asset awal (Uang)
         player1.uang = 250000;
+        player1.posisi = 0;
         player2.uang = 250000;
+        player2.posisi = 0;
 
         //tambahkan player ke arena
         oArena.tambahPlayer(player1,player2);
