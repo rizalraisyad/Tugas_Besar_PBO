@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af3427cb-893d-4e09-b6a8-f7554f6fb8d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BebasParkir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DanaUmum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kesempatan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pajak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Penjara.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Perusahaan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PetakTanah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetakTanah.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PetakTanah.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Arena.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -73,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/DanaUmum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -82,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/Kesempatan.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -100,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BebasParkir.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -135,7 +128,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/DrawingRect.java" />
-        <option value="$PROJECT_DIR$/src/Arena.java" />
         <option value="$PROJECT_DIR$/src/Petak.java" />
         <option value="$PROJECT_DIR$/src/PetakPijakan.java" />
         <option value="$PROJECT_DIR$/src/Asset.java" />
@@ -147,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/Kesempatan.java" />
         <option value="$PROJECT_DIR$/src/Penjara.java" />
         <option value="$PROJECT_DIR$/src/BebasParkir.java" />
+        <option value="$PROJECT_DIR$/src/Arena.java" />
       </list>
     </option>
   </component>
@@ -198,7 +191,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Arena">
+    <configuration name="Arena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arena" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DrawingRect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DrawingRect" />
       <module name="untitled" />
@@ -208,6 +208,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arena" />
         <item itemvalue="Application.DrawingRect" />
       </list>
     </recent_temporary>
@@ -225,7 +226,7 @@
       <workItem from="1555843036706" duration="2010000" />
       <workItem from="1555851184886" duration="570000" />
       <workItem from="1555925633753" duration="2814000" />
-      <workItem from="1556013694537" duration="4178000" />
+      <workItem from="1556013694537" duration="4852000" />
     </task>
     <task id="LOCAL-00001" summary="Add 2 Player&#10;Nama Player">
       <created>1555926597258</created>
@@ -255,17 +256,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556025085911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inherit petak pijakan dan petak tanah">
+      <created>1556026660581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556026660581</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9572000" />
+    <option name="totallyTimeSpent" value="10246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,7 +282,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,7 +312,8 @@
     <MESSAGE value="nambahexntend" />
     <MESSAGE value="ASet" />
     <MESSAGE value="ASet to push" />
-    <option name="LAST_COMMIT_MESSAGE" value="ASet to push" />
+    <MESSAGE value="inherit petak pijakan dan petak tanah" />
+    <option name="LAST_COMMIT_MESSAGE" value="inherit petak pijakan dan petak tanah" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DrawingRect.java">
@@ -332,16 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arena.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -390,14 +389,14 @@
     <entry file="file://$PROJECT_DIR$/src/DanaUmum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kesempatan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -415,7 +414,14 @@
     <entry file="file://$PROJECT_DIR$/src/BebasParkir.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arena.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>

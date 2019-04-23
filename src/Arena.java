@@ -1,8 +1,3 @@
-import javax.swing.*;
-import javax.swing.JFrame;
-import java.awt.Graphics;
-import java.awt.Color;
-
 public class Arena {
     private Player player1;
     private Player player2;
@@ -19,11 +14,26 @@ public class Arena {
             System.out.println("|");
         }
     }
+    public void bermain(){
+        System.out.println(player1.nama+"       "+player1.uang);
+        System.out.println(player2.nama+"       "+player2.uang);
+    }
 
 
     // deklarasi kelas
     public static void main(String[] args){
-        
+        Arena oArena = new Arena(); // Buat objek arenanya
+
+        Player player1 = new Player("Rizal M"); // siapkan player1
+        Player player2 = new Player("Tia H"); // siapkan player2
+
+        //Siapkan asset awal (Uang)
+        player1.uang = 250000;
+        player2.uang = 250000;
+
+        //tambahkan player ke arena
+        oArena.tambahPlayer(player1,player2);
+        oArena.bermain();
     }
 
 
