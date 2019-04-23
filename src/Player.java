@@ -8,13 +8,15 @@ public class Player {
     }
 
     public static int randomDadu(){
-        int x = (int)(Math.random()*((6-0)+1))+0;
+        int x = (int)(Math.random()*((6-1)+1))+1;
         return x;
     }
 
-    public void Jalan(Player player){
+    public void Jalan(){
         int hasilDadu=0;
         hasilDadu = hasilDadu + randomDadu();
         hasilDadu = hasilDadu + randomDadu();
+        this.posisi = (this.posisi + hasilDadu);
     }
+
 }
