@@ -16,7 +16,7 @@ public class Player {
         int hasilDadu=0;
         hasilDadu = hasilDadu + randomDadu();
         hasilDadu = hasilDadu + randomDadu();
-        this.posisi = (this.posisi + hasilDadu)%40;
+        this.posisi = (this.posisi + hasilDadu);
     }
 
 }

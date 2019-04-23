@@ -3,6 +3,7 @@ public class PetakTanah extends Petak{
     double hargaSewaTanah ;
     double hargaHipotik;
     boolean isTerjual;
+
     public void hitungHargaHipotik(){
 
     }

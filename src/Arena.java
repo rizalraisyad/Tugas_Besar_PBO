@@ -50,6 +50,7 @@ public class Arena {
         boolean isSelesai = false;
         do{
             System.out.println("\nNama Player "+playerTurn.nama);
+            System.out.println("Uang Player "+playerTurn.uang);
             System.out.println("Posisi awal : "+playerTurn.posisi);
             Scanner sc = new Scanner(System.in);
             System.out.println("Masukkan angka 1 untuk kocok dadu : ");
@@ -57,6 +58,10 @@ public class Arena {
             if(input == 1){
                 playerTurn.Jalan();
                 System.out.println("Posisi Akhir : "+playerTurn.posisi);
+                if(playerTurn.posisi/40>0){
+                    playerTurn.uang = playerTurn.uang +50000;
+                }
+                playerTurn.posisi=playerTurn.posisi%40;
                 Player temp = playerTurn;
                 playerTurn = playerWait;
                 playerWait = temp;
