@@ -1,2 +1,2 @@
-public class PetakTanah {
+public class PetakTanah extends Petak{
 }

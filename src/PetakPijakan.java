@@ -1,2 +1,3 @@
-public class PetakPijakan {
+public class PetakPijakan extends Petak{
+    
 }
