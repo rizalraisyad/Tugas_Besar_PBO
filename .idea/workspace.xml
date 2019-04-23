@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af3427cb-893d-4e09-b6a8-f7554f6fb8d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Petak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Petak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PetakPijakan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetakPijakan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PetakTanah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetakTanah.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +28,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Asset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#89#90#0" expanded="true" />
                 <element signature="e#117#118#0" expanded="true" />
@@ -45,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PetakTanah.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -93,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/Petak.java" />
         <option value="$PROJECT_DIR$/src/PetakPijakan.java" />
         <option value="$PROJECT_DIR$/src/PetakTanah.java" />
+        <option value="$PROJECT_DIR$/src/Asset.java" />
       </list>
     </option>
   </component>
@@ -171,7 +177,7 @@
       <workItem from="1555843036706" duration="2010000" />
       <workItem from="1555851184886" duration="570000" />
       <workItem from="1555925633753" duration="2814000" />
-      <workItem from="1556013694537" duration="985000" />
+      <workItem from="1556013694537" duration="2461000" />
     </task>
     <task id="LOCAL-00001" summary="Add 2 Player&#10;Nama Player">
       <created>1555926597258</created>
@@ -180,11 +186,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555926597258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nambahexntend">
+      <created>1556014706832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556014706832</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6379000" />
+    <option name="totallyTimeSpent" value="7855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -226,7 +239,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add 2 Player&#10;Nama Player" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 2 Player&#10;Nama Player" />
+    <MESSAGE value="nambahexntend" />
+    <option name="LAST_COMMIT_MESSAGE" value="nambahexntend" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DrawingRect.java">
@@ -236,6 +250,27 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PetakPijakan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PetakTanah.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Petak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -251,8 +286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#89#90#0" expanded="true" />
             <element signature="e#117#118#0" expanded="true" />
@@ -260,24 +295,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Petak.java">
+    <entry file="file://$PROJECT_DIR$/src/Asset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PetakPijakan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PetakTanah.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
