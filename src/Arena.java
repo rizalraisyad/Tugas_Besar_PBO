@@ -40,6 +40,8 @@ public class Arena {
         }
     }
 
+
+
     public void bermain(){
         System.out.println(player1.nama+"       "+player1.uang);
         System.out.println(player2.nama+"       "+player2.uang);
@@ -49,6 +51,7 @@ public class Arena {
         Player playerWait = player2;
         boolean isSelesai = false;
         do{
+
             System.out.println("\nNama Player "+playerTurn.nama);
             System.out.println("Uang Player "+playerTurn.uang);
             System.out.println("Posisi awal : "+playerTurn.posisi);
@@ -70,6 +73,7 @@ public class Arena {
             }
         }while (!isSelesai);
     }
+
 
 
     // deklarasi kelas
