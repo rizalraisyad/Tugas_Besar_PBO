@@ -15,16 +15,37 @@ public class Arena {
         }
     }
     public void loadPetak(){
+        for(int i =0 ; i<11;i++){
+            System.out.print("|");
+            System.out.print("_|");
+            if(i==0 || i == 10) {
+                for (int j = 0; j < 11; j++) {
+                    System.out.print("_|");
+                }
 
+                System.out.print("|");
+                System.out.println();
+            }else{
+                for (int j = 0; j < 11; j++) {
+                    if(j==10){
+                        System.out.print("|_|");
+                    }else {
+                        System.out.print("  ");
+                    }
+                }
+                System.out.println();
+            }
+        }
     }
 
     public void bermain(){
         System.out.println(player1.nama+"       "+player1.uang);
         System.out.println(player2.nama+"       "+player2.uang);
-        boolean isSelesai = false;
-        do{
-
-        }while (!isSelesai);
+        loadPetak();
+//        boolean isSelesai = false;
+//        do{
+//
+//        }while (!isSelesai);
     }
 
 
