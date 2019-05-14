@@ -1,6 +1,10 @@
 
 public class KotaBandaAceh extends Kota{
+<<<<<<< HEAD
 	
+=======
+	// warna coklat
+>>>>>>> origin/master
 	public KotaBandaAceh() {
 		String namaPetak = "Banda Aceh";
 		String deskripsi = "Ini Banda Aceh";
